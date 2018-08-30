@@ -70,7 +70,25 @@ text-align: right;
   padding: 10px;
 }
 
-
+.Locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+.Locations .Loc{
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+}
+.Loc h4{
+  opacity: 1;
+}
+.Locations h2{
+  padding-top: 20px
+}
 
 h2{
   display: block;
