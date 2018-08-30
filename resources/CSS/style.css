@@ -8,9 +8,9 @@ header{
   font-family: Helvetica;
   font-size: 22px;
   opacity: 0.9;
-  text-align: center;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 .logo{
   height: 50px;
@@ -18,6 +18,38 @@ header{
   display: flex;
 }
 .nav_content{
+  display: inline-block;
  padding-right: 20px;
 color: seashell;
+flex-grow: 1;
+text-align: right;
+}
+
+.mission{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  margin: auto;
+  height: 700px;
+  font-family: Helvetica;
+  color: seashell;
+  padding-top: 70px;
+
+}
+.content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2{
+  display: block;
+}
+h4{
+  display: block;
+}
+body{
+  text-align: center;
+  background-color: black;
 }
