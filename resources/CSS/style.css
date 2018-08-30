@@ -23,8 +23,11 @@ header{
 color: seashell;
 flex-grow: 1;
 text-align: right;
+margin: 20px;
 }
-
+span{
+  padding: 20px;
+}
 .mission{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -89,11 +92,23 @@ text-align: right;
 .Locations h2{
   padding-top: 20px
 }
+.footer_content{
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
 
 h2{
   display: block;
 }
 h4{
+  display: block;
+}
+h5{
   display: block;
 }
 body{
