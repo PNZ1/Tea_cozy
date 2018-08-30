@@ -43,6 +43,35 @@ text-align: right;
   justify-content: center;
   flex-wrap: wrap;
 }
+.month{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.image_boxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+
+
+}
+.image_boxes .box{
+  justify-content: center;
+  display: block;
+  padding: 5px;
+}
+.box img{
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+
+
 h2{
   display: block;
 }
@@ -52,4 +81,7 @@ h4{
 body{
   text-align: center;
   background-color: black;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
 }
